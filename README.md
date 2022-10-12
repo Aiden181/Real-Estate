@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
 <br/>
 <p align="center">
   <a href="https://github.com/Aiden181/Real-Estate">
@@ -32,8 +33,8 @@ You can access via this link: <a href="https://aiden181.github.io/Real-Estate/">
 
 
 <ul>
-  <li><i class="fa fa-html5" aria-hidden="true"></i></li>
-  <li><i class="fa fa-css3" aria-hidden="true"></i></li>
+  <li>HTML5</li>
+  <li>CSS3</li>
 </ul
 
 
