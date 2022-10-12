@@ -683,6 +683,10 @@ footer > .container {
   gap: 2.5rem;
 }
 
+.footer-bottom-list-title {
+  user-select: none;
+}
+
 .footer-bottom-item {
   font-size: 1.6rem;
   cursor: pointer;
