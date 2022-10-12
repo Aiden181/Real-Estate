@@ -1,7 +1,7 @@
 <br/>
 <p align="center">
   <a href="https://github.com/Aiden181/Real-Estate">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="images/Aiden.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Real Estate</h3>
