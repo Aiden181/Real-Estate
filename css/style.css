@@ -276,6 +276,10 @@ ul {
 /* End of Hero */
 
 /* Sponsor */
+.sponsor {
+  padding-bottom: 10rem;
+}
+
 .sponsor-list {
   gap: 9.6rem;
 }
