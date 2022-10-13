@@ -22,7 +22,7 @@
                     General
                     <span>Project</span>
                 </a>
-                <a href="" class="nav-menu"><img src="" alt="" srcset="./images/menu.png 2x"></a>
+                <a href="" class="nav-menu js-menu"><img src="" alt="" srcset="./images/menu.png 2x"></a>
                 <!-- First Nav List -->
                 <div class="nav-right">
                     <ul class="nav-list">
@@ -467,6 +467,23 @@
         </div>
     </footer>
     <!-- Emd of Footer -->
+    <script>
+        const menuBtn = document.querySelector(".js-menu")
+        const rightNav = document.querySelector(".nav-right")
+
+        function showMenu() {
+            rightNav.classList.add("open")
+        }
+
+        function hideMenu() {
+            rightNav.classList.remove("open")
+        }
+
+        menuBtn.addEventListener("click", showMenu)
+        // menuBtn.addEventListener("click", hideMenu)
+
+
+    </script>
 </body>
 
 </html>

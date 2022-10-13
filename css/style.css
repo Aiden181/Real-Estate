@@ -568,12 +568,12 @@ ul {
 footer {
   margin-top: 37.8rem;
   background: var(--linearBlack);
-  padding: 42rem 0 8.5rem;
   position: relative;
 }
 
 footer > .container {
   color: var(--white);
+  padding: 42rem 27.8rem 7.7rem 12rem;
 }
 
 .footer-upper {
