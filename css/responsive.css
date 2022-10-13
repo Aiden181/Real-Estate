@@ -1,7 +1,7 @@
 @media screen and (max-width: 1281px) {
   html,
   body {
-    font-size: 50%;
+    font-size: 45%;
   }
 }
 
@@ -13,9 +13,87 @@
 }
 
 @media screen and (max-width: 950px) {
+  @keyframes fade {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateY(-40px);
+    }
+    100% {
+      opacity: 1;
+      -webkit-transform: translateY(0);
+    }
+  }
+  .open {
+    display: block;
+  }
+
   html,
   body {
     font-size: 30%;
+  }
+
+  nav {
+    margin-bottom: 2rem;
+  }
+
+  nav {
+    justify-content: space-between;
+  }
+
+  .nav-menu {
+    z-index: 99;
+    display: block;
+    cursor: pointer;
+    transition: ease-in-out 0.15s;
+  }
+
+  .nav-menu:hover {
+    opacity: 0.6;
+  }
+
+  .nav-right {
+    display: none;
+    position: absolute;
+    top: 8%;
+    right: 8%;
+    z-index: 99;
+    flex-direction: column;
+    background: var(--white);
+    border-radius: 0.8rem;
+    gap: 0;
+    box-shadow: linear-gradient(97.65deg, #60bbee 0.33%, #0a72ad 93.35%);
+    animation: fade ease-out 0.3s;
+  }
+
+  .nav-list {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .nav-item {
+    width: 100%;
+    border-bottom: solid rgba(0, 0, 0, 0.05);
+  }
+
+  .nav-item a {
+    display: inline-block;
+    padding: 2rem 7rem;
+    text-align: center;
+    width: 100%;
+    color: black;
+    transition: ease-in-out 0.15s;
+  }
+
+  .nav-item a:hover {
+    background: #0a72ad;
+    color: white;
+  }
+
+  .hero-right img {
+    position: absolute;
+    bottom: 0;
+    width: 28%;
+    z-index: 0;
   }
 }
 

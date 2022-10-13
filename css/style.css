@@ -11,6 +11,12 @@
   --black: #242527;
   --linearBlack: linear-gradient(219.84deg, #474747 4.14%, #222222 44.22%);
   --linearBlue: linear-gradient(97.65deg, #60bbee 0.33%, #0a72ad 93.35%);
+  --linearBlueDark: linear-gradient(
+    97.73deg,
+    #399fd8 -6.96%,
+    #0775b4 23.5%,
+    #003756 92.79%
+  );
 }
 
 /* Typography */
@@ -127,6 +133,10 @@ ul {
   padding: 6.3rem 0 0;
 }
 
+.container {
+  position: relative;
+}
+
 .header .nav {
   display: flex;
   align-items: center;
@@ -148,6 +158,10 @@ ul {
 .nav-logo > span {
   font-weight: 700;
   color: var(--blue);
+}
+
+.nav-menu {
+  display: none;
 }
 
 .nav-right {
@@ -200,6 +214,7 @@ ul {
 
 .hero-list {
   gap: 5.1rem;
+  margin-bottom: 4.9rem;
 }
 
 .hero-item-name {
@@ -214,21 +229,24 @@ ul {
   color: var(--grey);
 }
 
-.hero-right {
-  position: relative;
+.hero-right img {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 35%;
 }
 
 .hero-info {
-  background: var(--linearBlue);
+  background: var(--linearBlueDark);
   position: absolute;
   box-shadow: 0px 10px 15px rgba(1, 115, 153, 0.2);
   padding: 3.6rem 8.3rem 3.7rem 3.2rem;
   color: var(--white);
   gap: 4rem;
   bottom: 0;
+  right: 0;
   width: 74.5rem;
   height: 16.6rem;
-  left: -31%;
 }
 
 .hero-info-item:first-child h5:first-child {
