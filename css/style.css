@@ -281,7 +281,8 @@ ul {
 }
 
 .sponsor-list {
-  gap: 9.6rem;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .sponsor-item {
@@ -313,6 +314,10 @@ ul {
   padding: 8rem 0 10rem;
 }
 
+.service-title {
+  flex: 0 1 35%;
+}
+
 .service-item {
   flex: 0 1 30%;
 }
@@ -329,7 +334,7 @@ ul {
 /* Highlight */
 .highlight-upper {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-between;
   margin-bottom: 7.5rem;
 }
@@ -340,7 +345,7 @@ ul {
 }
 
 .highlight-title {
-  flex: 1 0 50%;
+  flex: 0 0 30%;
   position: relative;
 }
 
@@ -353,6 +358,11 @@ ul {
   width: 9rem;
   height: 0.9rem;
   background: linear-gradient(90deg, #60bbee -2.22%, #2387c0 67.22%);
+}
+
+.highlight-desc {
+  flex: 0 0 45%;
+  text-align: justify;
 }
 
 .highlight-item {
@@ -450,6 +460,7 @@ ul {
 
 .story-title {
   margin-bottom: 2.5rem;
+  width: 60%;
 }
 
 .story-desc {
@@ -472,13 +483,13 @@ ul {
   display: flex;
   align-items: center;
   gap: 1.5rem;
-  max-width: 31rem;
+  width: 31rem;
   margin-bottom: 2.5rem;
   padding-left: 1.5rem;
 }
 
 .news-item-desc {
-  max-width: 33.5rem;
+  width: 33.5rem;
   padding-left: 1.5rem;
 }
 
@@ -521,6 +532,10 @@ ul {
 /* Collection */
 .collection-item {
   flex: 1 0 27.8rem;
+}
+
+.collection-title {
+  width: 40rem;
 }
 
 .collection-item:nth-child(2) {
