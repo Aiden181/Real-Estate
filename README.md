@@ -11,15 +11,7 @@
     This Website is cloned from a Figma Desgin: <a href="https://www.figma.com/file/gRfSkOKlkyWOaodtTJwllY/Real-Estate-Website-Landing-Page-(Community)?node-id=14%3A89">Real Estate</a>
 <br/>
 You can access via this link: <a href="https://aiden181.github.io/Real-Estate/">Aiden</a>
-    <br/>
-    <br/>
-    <a href="https://github.com/Aiden181/Real-Estate"><strong>Explore the docs »</strong></a>
-    <br/>
-    <br/>
-    <a href="https://github.com/Aiden181/Real-Estate">View Demo</a>
-    .
-  </p>
-</p>
+ 
 
 ![Contributors](https://img.shields.io/github/contributors/Aiden181/Real-Estate?color=dark-green) ![Forks](https://img.shields.io/github/forks/Aiden181/Real-Estate?style=social) 
 
